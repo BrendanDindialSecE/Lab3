@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<title>Multimedia Blog Post</title>
+<style>
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+h1 {
+    color: #ff4775; 
+}
+
+h2 {
+    color: #9370db; 
+    
+}
+
+p {
+    
+    font-size: larger;
+    color: #ffffff;
+   padding: 20px;
+    
+}
+u{
+    color: rgb(6, 0, 63);
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.image {
+    display: inline-block; 
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+   
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+   
+}
+
+.caption {
+    font-style: italic;
+    color: #8678ff;
+}
+
+video, audio {
+    width: 100%;
+    color: black;
+    
+}
+.foot {
+background: #000000;
+color: #ff69b4;
+text-align: center;
+}
+
+/* nav css stuff */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #00bfff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff69b4; 
+}
+
+</style>
+</head>
+<body>
+<div class="content">
+    <h1>Multimedia Blog Post</h1>
+    <nav>
+        <ul>
+        <li><a href="./blog-layout.html">Home</a></li>
+        <li><a href="./multimedia-blog-post.html">Multimedia Blog</a></li>
+        <li><a href="./blog-post-form.html">Create New Post</a></li>
+        </ul>
+        </nav>
+    
+    <br>
+    <u><h2>All my favourite media content!</h2></u>
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cWuzJBboQyE?si=j57_JQzCS5hSSZex" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>
+        This video I find very visually aesthetic. 
+        Watching the astronaut float through space is so relaxing and exciting at the same time! 
+        The dark space with all the stars makes it feel like they're in a whole other world, far away from everything. 
+        Space intrigues me a lot and this particular media content really caught my eye! 
+    </p>
+    <div class="image">
+        <h2 class="caption">Cosmo!</h2>
+        <img src="./photos/cosmo3.png" alt="my cat" width="300" height="300">
+        <p>
+            This is my cat Cosmo. I love him so much because he has been a true hero in my life. 
+            Through the ups and downs, Cosmo's presence has been a constant source of comfort and joy. 
+            His playful antics bring laughter and light into my days, and his gentle purring soothes me during tough times. 
+            Cosmo has an incredible ability to sense when I need a little extra love and always seems to know just how to lift my spirits. 
+            His loyalty and affection make every day brighter, and Im endlessly grateful for the companionship and warmth he brings into my life.
+        </p>
+    </div>
+    <div>
+    <h2>Daft Punk - Give Life Back To Music AUDIO</h2>
+    <audio controls>
+        <source src="Daft Punk - Give Life Back to Music (HQ).mp3" type="audio/mpeg">
+    </audio>
+    <p>
+        "Give Life Back to Music" by Daft Punk is a track that resonates deeply with me for several reasons. 
+        The songs infectious groove and upbeat rhythm have an almost magical ability to lift my spirits and energize my day. 
+        The blend of classic funk with modern electronic elements creates a sound thats both nostalgic and fresh, a testament to Daft Punks mastery in blending genres.
+        The lyrics, though simple, capture a profound message about the power of music to rejuvenate and inspire. 
+        Every time I listen to it, Im reminded of the pure joy and freedom that music brings, 
+        making it impossible not to dance along and feel a renewed sense of excitement and vitality. 
+    </p>
+    </div>
+    <h2>Red Lights</h2>
+    <p>LOVEEE THIS TRACK AND WALLPAPER!!</p>
+    <video width="640" height="360" controls>
+        <source src="Maximum love - Red Lights(slowed and reverb).mp4" type="video/mp4">
+    </video>
+    <footer>
+        <p class="foot">&copy; 2024 Brendan Dindials Blog. All rights reserved. Contact me n01279862@humbermail.ca</p>
+        </footer>
+</div>
+</body>
+</html>
